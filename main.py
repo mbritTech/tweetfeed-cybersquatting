@@ -13,7 +13,7 @@ def tweetfeed_filtering():
 
         have_match, match = filtering_proccess(main_domain, domains_for_filtering)
         if have_match:
-            print(f"Match del dominio |{domain}| con {match}")
+            print(f"Domain |{domain}| matched with {match}")
         # else:
         #     print(f"El dominio |{domain}| no ha hecho match")
 
